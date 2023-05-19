@@ -75,7 +75,7 @@ function Layout({ children, title }: LayoutProps) {
                     <Slide duration={1300} right>
                         <p className={`mt-8 text-base md:mt-0 md:order-1 ${screen300 && `hidden`}`}>
                             <a href="#" style={{ pointerEvents: "none" }} className="text-gray-400 hover:text-gray-400 select-none"> Contact @ </a>
-                            <a href="#" style={{ pointerEvents: "none" }} className="text-gray-400 hover:text-gray-400 select-none"> <span style={{ fontFamily: "serif !important" }} className="font-bold">+92318-8395072</span> ( WhatsApp ) </a>
+                            <a href="#" style={{ pointerEvents: "none" }} className="text-gray-400 hover:text-gray-400 select-none"> <span style={{ fontFamily: "serif !important" }} className="font-bold">+971527238056</span> ( WhatsApp ) </a>
                         </p>
                     </Slide>
                 </div>
