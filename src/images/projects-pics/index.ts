@@ -1,3 +1,4 @@
+export { default as projectMLM } from './mlm.png';
 export { default as project0 } from './0.png';
 
 export { default as project21 } from './21.png';
@@ -5,6 +6,7 @@ export { default as project22 } from './22.png';
 export { default as project23 } from './23.png';
 export { default as project24 } from './24.png';
 export { default as project25 } from './25.png';
+export { default as project26 } from './26.png';
 
 export { default as project1 } from './1.png';
 export { default as project2 } from './2.png';

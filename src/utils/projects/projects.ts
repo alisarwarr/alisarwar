@@ -1,4 +1,5 @@
 import {
+    projectMLM,
     project0,
     /* FREELANCE */
     project21,
@@ -6,6 +7,7 @@ import {
     project23,
     project24,
     project25,
+    project26,
     /* FREELANCE */
     project1,
     project2,
@@ -36,13 +38,15 @@ import {
 } from '../../images/projects-pics';
 
 export default  [
+    {id: 0, name: "MLM Project", technologies: "ReactJS <b>|</b> Typescript <b>|</b> Django", url: "https://platform.blpro8.club", pic: projectMLM},
     {id: 1, name: "Youtube Clone", technologies: "ReactJS <b>|</b> RouterDOM <b>|</b> Clone", url: "https://yotube-pwa.web.app", pic: project0},
     /* FREELANCE */
     {id: 21, name: "Haystack Steam", technologies: "NextJS <b>|</b> TailwindCSS <b>|</b> Typescript", url: "https://haystack.vercel.app", pic: project21},
     {id: 22, name: "Mifu Startup", technologies: "NextJS <b>|</b> TailwindCSS <b>|</b> Typescript", url: "https://mifu-landing-pages.vercel.app", pic: project22},
     {id: 23, name: "Dao Application", technologies: "ReactJS <b>|</b> TailwindCSS <b>|</b> Typescript", url: "https://dao-app.netlify.app", pic: project23},
     {id: 24, name: "Golove Dating", technologies: "NextJS <b>|</b> MaterialUI <b>|</b> Typescript", url: "https://golove.vercel.app", pic: project24},
-    {id: 25, name: "Coinbull Pro", technologies: "GatsbyJS <b>|</b> MaterialUI <b>|</b> Typescript", url: "https://coinbullpro.netlify.app", pic: project25},
+    {id: 25, name: "Chat Impact", technologies: "NextJS <b>|</b> TailwindCSS <b>|</b> Typescript", url: "https://chatimpact.vercel.app", pic: project25},
+    {id: 26, name: "Coinbull Pro", technologies: "GatsbyJS <b>|</b> MaterialUI <b>|</b> Typescript", url: "https://coinbullpro.netlify.app", pic: project26},
     /* FREELANCE */
     {id: 2, name: "Covid19 Tracker", technologies: "ReactJS <b>|</b> ChartJS <b>|</b> MaterialUI" , url: "https://covid19trackerapp-ali.netlify.app", pic: project2},
     {id: 3, name: "Shoes Store", technologies: "ReactJS <b>|</b> RouterDOM <b>|</b> Redux", url: "https://shoestoreapp-ali.netlify.app", pic: project3},
@@ -51,7 +55,7 @@ export default  [
     {id: 6, name: "New Animation", technologies: "ReactJS<b>|</b> Animation <b>|</b> MaterialUI", url: "https://newanimationapp-ali.netlify.app", pic: project5},
     {id: 7, name: "Quiz Application", technologies: "ReactJS <b>|</b> Typescript <b>|</b> MaterialUI", url: "https://quizapplicationapp-ali.netlify.app", pic: project6},
     {id: 8, name: "Timer Application", technologies: "ReactJS <b>|</b> Typescript <b>|</b> Testing", url: "https://timerapp-ali.netlify.app", pic: project7a},
-    {id: 9, name: "Expense Tracker", technologies: "ReactJS <b>|</b> ContextAPI <b>|</b> Bootstrap", url: "https://expensetrackerapp-ali.netlify.app", pic: project1},
+    // {id: 9, name: "Expense Tracker", technologies: "ReactJS <b>|</b> ContextAPI <b>|</b> Bootstrap", url: "https://expensetrackerapp-ali.netlify.app", pic: project1},
     {id: 10, name: "Expense Track PWA", technologies: "ReactJS <b>|</b> Typescript <b>|</b> PWA", url: "https://expensetracker-pwa.web.app", pic: project7b},
     {id: 11, name: "SpaceX Application", technologies: "ReactJS <b>|</b> GraphQL <b>|</b> MaterialUI", url: "https://spacexapp-ali.netlify.app", pic: project8},
     {id: 12, name: "Basket Application", technologies: "ReactJS <b>|</b> RouterDOM <b>|</b> Redux", url: "https://cricbasketapp-ali.netlify.app", pic: project9a},
@@ -68,6 +72,6 @@ export default  [
     {id: 23, name: "Google Clone", technologies: "ReactJS <b>|</b> RouterDOM <b>|</b> Clone", url: "https://googlapp-ali.web.app", pic: project16},
     {id: 24, name: "Netflix Clone", technologies: "ReactJS <b>|</b> Axios <b>|</b> Clone", url: "https://netflxapp-ali.web.app", pic: project17},
     {id: 25, name: "Meetups MongoDB", technologies: "NextJS <b>|</b> MongoDB <b>|</b> Vercel", url: "https://meetupsapp-mongodb.vercel.app", pic: project18},
-    {id: 26, name: "Meetups FaunaDB", technologies: "NextJS <b>|</b> FaunaDB <b>|</b> Vercel", url: "https://meetupsapp-faunadb.vercel.app", pic: project19},
+    // {id: 26, name: "Meetups FaunaDB", technologies: "NextJS <b>|</b> FaunaDB <b>|</b> Vercel", url: "https://meetupsapp-faunadb.vercel.app", pic: project19},
     {id: 27, name: "World Ranks PWA", technologies: "NextJS <b>|</b> PWA <b>|</b> Vercel", url: "https://worldranks-pwa.vercel.app", pic: project20}
 ];

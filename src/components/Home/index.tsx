@@ -59,7 +59,7 @@ function Home({ title, images }: HomeProps) {
                         <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
                             <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
                                 <div className="absolute inset-0">
-                                    <Zoom duration={1300}><img className="h-full w-full object-cover" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100" /></Zoom>
+                                    <><img className="h-full w-full object-cover" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100" /></>
                                     <div className="absolute inset-0 bg-gradient-to-r from-gray-800 to-gray-700 mix-blend-multiply"></div>
                                 </div>
 
@@ -168,7 +168,7 @@ function Home({ title, images }: HomeProps) {
                 <div className="bg-white">
                     <div className={`${screen400 ? `bg-gray-100` : `bg-black`} z-10 lg:relative p-1.5 ${screen1076 ? `pb-2` : screen863 ? `pb-0` : ``} md:h-100 lg:h-full`}>
                         <div className={`mx-auto max-w-7xl px-8 ${screen840 ? `grid grid-cols-3 gap-8` : `flex align-middle justify-center flex-col`}`}>
-                            <Zoom duration={1300}>
+                            <>
                                 {
                                     screen840 ? (
                                         <div className="relative md:-my-10 lg:-my-8">
@@ -186,7 +186,7 @@ function Home({ title, images }: HomeProps) {
                                         </div>
                                     )
                                 }
-                            </Zoom>
+                            </>
                             <div className="mt-12 m-0 col-span-2 pl-8">
                                 <div className="mx-auto px-0 py-20 max-w-none">
                                     <blockquote>
@@ -250,8 +250,8 @@ function Home({ title, images }: HomeProps) {
                     </div>
                     <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8 selection:bg-transparent">
                         <div className="text-center myHoverEffect3">
-                            <Slide duration={1300} left><p className="mt-1 text-4xl font-extrabold text-gray-50 sm:text-5xl sm:tracking-normal lg:text-6xl cursor-pointer" style={{ wordSpacing: "0.285rem" }}>JavaScript Developer</p></Slide>
-                            <Slide duration={1300} right><p className="pl-0.5 pr-0.5 max-w-xl mt-5 mx-auto italic text-xl text-gray-200 tracking-normal" style={{ wordSpacing: "0.115rem", fontSize: !screen300 ? "1.1rem" : "" }}>&ldquo; My personal programming language is the mighty JavaScript that's why I have great expertise in this language &rdquo;</p></Slide>
+                            <><p className="mt-1 text-4xl font-extrabold text-gray-50 sm:text-5xl sm:tracking-normal lg:text-6xl cursor-pointer" style={{ wordSpacing: "0.285rem" }}>JavaScript Developer</p></>
+                            <><p className="pl-0.5 pr-0.5 max-w-xl mt-5 mx-auto italic text-xl text-gray-200 tracking-normal" style={{ wordSpacing: "0.115rem", fontSize: !screen300 ? "1.1rem" : "" }}>&ldquo; My personal programming language is the mighty JavaScript that's why I have great expertise in this language &rdquo;</p></>
                         </div>
                     </div>
                 </div>
@@ -263,8 +263,8 @@ function Home({ title, images }: HomeProps) {
                     </div>
                     <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8 selection:bg-transparent">
                         <div className="text-center myHoverEffect3">
-                            <Slide duration={1300} right><p className="mt-1 text-4xl font-extrabold text-gray-50 sm:text-5xl sm:tracking-normal lg:text-6xl cursor-pointer" style={{ wordSpacing: "0.285rem" }}>TypeScript Developer</p></Slide>
-                            <Slide duration={1300} left><p className="pl-0.5 pr-0.5 max-w-xl mt-5 mx-auto italic text-xl text-gray-200 tracking-normal" style={{ wordSpacing: "0.115rem", fontSize: !screen300 ? "1.1rem" : "" }}>&ldquo; My second programming language is the mighty TypeScript that's why I have great expertise in this language &rdquo;</p></Slide>
+                            <><p className="mt-1 text-4xl font-extrabold text-gray-50 sm:text-5xl sm:tracking-normal lg:text-6xl cursor-pointer" style={{ wordSpacing: "0.285rem" }}>TypeScript Developer</p></>
+                            <><p className="pl-0.5 pr-0.5 max-w-xl mt-5 mx-auto italic text-xl text-gray-200 tracking-normal" style={{ wordSpacing: "0.115rem", fontSize: !screen300 ? "1.1rem" : "" }}>&ldquo; My second programming language is the mighty TypeScript that's why I have great expertise in this language &rdquo;</p></>
                         </div>
                     </div>
                 </div>
@@ -419,7 +419,7 @@ function Home({ title, images }: HomeProps) {
                     )}
 
                     <div className={`${!screen300 && `bg-black`} border-t border-gray-200 pt-8 pb-4 flex items-center align-middle justify-center flex-col lg:mt-16`}>
-                        <Slide duration={1300} left>
+                        <>
                             <div className="flex space-x-6 md:order-2 align-middle">
                                 <a className="cursor-pointer text-gray-400 hover:text-gray-500 myHoverEffect1"
                                     target="_blank" href="https://www.facebook.com/alisarwarr"
@@ -442,14 +442,14 @@ function Home({ title, images }: HomeProps) {
                                     <LinkedInIcon fontSize="large" />
                                 </a>
                             </div>
-                        </Slide>
+                        </>
 
-                        <Slide duration={1300} right>
+                        <>
                             <p className={`mt-8 text-base md:mt-0 md:order-1 ${screen300 && `hidden`}`}>
                                 <a href="#" className="text-gray-400 hover:text-gray-400 select-none"> Contact @ </a>
-                                <a href="#" className="text-gray-400 hover:text-gray-400 select-none"> <span style={{ fontFamily: "serif !important" }} className="font-bold">+923188395072</span> ( WhatsApp ) </a>
+                                <a href="#" className="text-gray-400 hover:text-gray-400 select-none"> <span style={{ fontFamily: "serif !important" }} className="font-bold">+971543851679</span> ( WhatsApp ) </a>
                             </p>
-                        </Slide>
+                        </>
                     </div>
                 </footer>
             </div>

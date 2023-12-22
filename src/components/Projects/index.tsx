@@ -73,7 +73,7 @@ function Projects({ projects, services }: ProjectsProps) {
                     )
                 }
 
-                <div style={{ width: screen600?"80%":"65%", marginTop: screen680?10.15:15.05, marginBottom: screen680?3.65:10 }}>
+                {/* <div style={{ width: screen600?"80%":"65%", marginTop: screen680?10.15:15.05, marginBottom: screen680?3.65:10 }}>
                     <Select
                         options={services}
                         className="basic-single w-full mt-8"
@@ -81,7 +81,7 @@ function Projects({ projects, services }: ProjectsProps) {
                         onChange={(e) => setFilter(e?.value)}
                         isClearable={isClearable}
                     />
-                </div>
+                </div> */}
 
                 <Grid container spacing={3} className="d-f1lex align-items-center justify-content-center p-10" style={{ marginTop: screen680?-20:-25 }}>
                     {
