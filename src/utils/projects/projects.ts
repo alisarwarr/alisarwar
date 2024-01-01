@@ -42,10 +42,10 @@ export default  [
     {id: 1, name: "Youtube Clone", technologies: "ReactJS <b>|</b> RouterDOM <b>|</b> Clone", url: "https://yotube-pwa.web.app", pic: project0},
     /* FREELANCE */
     {id: 21, name: "Haystack Steam", technologies: "NextJS <b>|</b> TailwindCSS <b>|</b> Typescript", url: "https://haystack.vercel.app", pic: project21},
-    {id: 22, name: "Mifu Startup", technologies: "NextJS <b>|</b> TailwindCSS <b>|</b> Typescript", url: "https://mifu-landing-pages.vercel.app", pic: project22},
+    {id: 22, name: "Mifu Startup", technologies: "NextJS <b>|</b> TailwindCSS <b>|</b> Typescript", url: "https://www.mifu.co.uk", pic: project22},
     {id: 23, name: "Dao Application", technologies: "ReactJS <b>|</b> TailwindCSS <b>|</b> Typescript", url: "https://dao-app.netlify.app", pic: project23},
-    {id: 24, name: "Golove Dating", technologies: "NextJS <b>|</b> MaterialUI <b>|</b> Typescript", url: "https://golove.vercel.app", pic: project24},
-    {id: 25, name: "Chat Impact", technologies: "NextJS <b>|</b> TailwindCSS <b>|</b> Typescript", url: "https://chatimpact.vercel.app", pic: project25},
+    {id: 24, name: "Golove Dating", technologies: "NextJS <b>|</b> MaterialUI <b>|</b> Typescript", url: "https://www.golove.id", pic: project24},
+    {id: 25, name: "Chat Impact", technologies: "NextJS <b>|</b> TailwindCSS <b>|</b> Typescript", url: "https://www.chatimpact.com", pic: project25},
     {id: 26, name: "Coinbull Pro", technologies: "GatsbyJS <b>|</b> MaterialUI <b>|</b> Typescript", url: "https://coinbullpro.netlify.app", pic: project26},
     /* FREELANCE */
     {id: 2, name: "Covid19 Tracker", technologies: "ReactJS <b>|</b> ChartJS <b>|</b> MaterialUI" , url: "https://covid19trackerapp-ali.netlify.app", pic: project2},
